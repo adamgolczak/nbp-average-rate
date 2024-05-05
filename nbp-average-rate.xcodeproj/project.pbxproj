@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		663D05E32BE7E61500B33719 /* nbp_average_rateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663D05E22BE7E61500B33719 /* nbp_average_rateApp.swift */; };
+		663D05E52BE7E61500B33719 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663D05E42BE7E61500B33719 /* ContentView.swift */; };
+		663D05E72BE7E62100B33719 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 663D05E62BE7E62100B33719 /* Assets.xcassets */; };
+		663D05EA2BE7E62100B33719 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 663D05E92BE7E62100B33719 /* Preview Assets.xcassets */; };
+		663D05F42BE7E62100B33719 /* nbp_average_rateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663D05F32BE7E62100B33719 /* nbp_average_rateTests.swift */; };
+		663D05FE2BE7E62100B33719 /* nbp_average_rateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663D05FD2BE7E62100B33719 /* nbp_average_rateUITests.swift */; };
+		663D06002BE7E62100B33719 /* nbp_average_rateUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663D05FF2BE7E62100B33719 /* nbp_average_rateUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		663D05F02BE7E62100B33719 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 663D05D72BE7E61500B33719 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 663D05DE2BE7E61500B33719;
+			remoteInfo = "nbp-average-rate";
+		};
+		663D05FA2BE7E62100B33719 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 663D05D72BE7E61500B33719 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 663D05DE2BE7E61500B33719;
+			remoteInfo = "nbp-average-rate";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		663D05DF2BE7E61500B33719 /* nbp-average-rate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "nbp-average-rate.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		663D05E22BE7E61500B33719 /* nbp_average_rateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nbp_average_rateApp.swift; sourceTree = "<group>"; };
+		663D05E42BE7E61500B33719 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		663D05E62BE7E62100B33719 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		663D05E92BE7E62100B33719 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		663D05EF2BE7E62100B33719 /* nbp-average-rateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "nbp-average-rateTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		663D05F32BE7E62100B33719 /* nbp_average_rateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nbp_average_rateTests.swift; sourceTree = "<group>"; };
+		663D05F92BE7E62100B33719 /* nbp-average-rateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "nbp-average-rateUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		663D05FD2BE7E62100B33719 /* nbp_average_rateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nbp_average_rateUITests.swift; sourceTree = "<group>"; };
+		663D05FF2BE7E62100B33719 /* nbp_average_rateUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nbp_average_rateUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		663D05DC2BE7E61500B33719 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		663D05EC2BE7E62100B33719 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		663D05F62BE7E62100B33719 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		663D05D62BE7E61500B33719 = {
+			isa = PBXGroup;
+			children = (
+				663D05E12BE7E61500B33719 /* nbp-average-rate */,
+				663D05F22BE7E62100B33719 /* nbp-average-rateTests */,
+				663D05FC2BE7E62100B33719 /* nbp-average-rateUITests */,
+				663D05E02BE7E61500B33719 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		663D05E02BE7E61500B33719 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				663D05DF2BE7E61500B33719 /* nbp-average-rate.app */,
+				663D05EF2BE7E62100B33719 /* nbp-average-rateTests.xctest */,
+				663D05F92BE7E62100B33719 /* nbp-average-rateUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		663D05E12BE7E61500B33719 /* nbp-average-rate */ = {
+			isa = PBXGroup;
+			children = (
+				663D05E22BE7E61500B33719 /* nbp_average_rateApp.swift */,
+				663D05E42BE7E61500B33719 /* ContentView.swift */,
+				663D05E62BE7E62100B33719 /* Assets.xcassets */,
+				663D05E82BE7E62100B33719 /* Preview Content */,
+			);
+			path = "nbp-average-rate";
+			sourceTree = "<group>";
+		};
+		663D05E82BE7E62100B33719 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				663D05E92BE7E62100B33719 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		663D05F22BE7E62100B33719 /* nbp-average-rateTests */ = {
+			isa = PBXGroup;
+			children = (
+				663D05F32BE7E62100B33719 /* nbp_average_rateTests.swift */,
+			);
+			path = "nbp-average-rateTests";
+			sourceTree = "<group>";
+		};
+		663D05FC2BE7E62100B33719 /* nbp-average-rateUITests */ = {
+			isa = PBXGroup;
+			children = (
+				663D05FD2BE7E62100B33719 /* nbp_average_rateUITests.swift */,
+				663D05FF2BE7E62100B33719 /* nbp_average_rateUITestsLaunchTests.swift */,
+			);
+			path = "nbp-average-rateUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		663D05DE2BE7E61500B33719 /* nbp-average-rate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 663D06032BE7E62100B33719 /* Build configuration list for PBXNativeTarget "nbp-average-rate" */;
+			buildPhases = (
+				663D05DB2BE7E61500B33719 /* Sources */,
+				663D05DC2BE7E61500B33719 /* Frameworks */,
+				663D05DD2BE7E61500B33719 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "nbp-average-rate";
+			productName = "nbp-average-rate";
+			productReference = 663D05DF2BE7E61500B33719 /* nbp-average-rate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		663D05EE2BE7E62100B33719 /* nbp-average-rateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 663D06062BE7E62100B33719 /* Build configuration list for PBXNativeTarget "nbp-average-rateTests" */;
+			buildPhases = (
+				663D05EB2BE7E62100B33719 /* Sources */,
+				663D05EC2BE7E62100B33719 /* Frameworks */,
+				663D05ED2BE7E62100B33719 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				663D05F12BE7E62100B33719 /* PBXTargetDependency */,
+			);
+			name = "nbp-average-rateTests";
+			productName = "nbp-average-rateTests";
+			productReference = 663D05EF2BE7E62100B33719 /* nbp-average-rateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		663D05F82BE7E62100B33719 /* nbp-average-rateUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 663D06092BE7E62100B33719 /* Build configuration list for PBXNativeTarget "nbp-average-rateUITests" */;
+			buildPhases = (
+				663D05F52BE7E62100B33719 /* Sources */,
+				663D05F62BE7E62100B33719 /* Frameworks */,
+				663D05F72BE7E62100B33719 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				663D05FB2BE7E62100B33719 /* PBXTargetDependency */,
+			);
+			name = "nbp-average-rateUITests";
+			productName = "nbp-average-rateUITests";
+			productReference = 663D05F92BE7E62100B33719 /* nbp-average-rateUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		663D05D72BE7E61500B33719 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					663D05DE2BE7E61500B33719 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					663D05EE2BE7E62100B33719 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 663D05DE2BE7E61500B33719;
+					};
+					663D05F82BE7E62100B33719 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 663D05DE2BE7E61500B33719;
+					};
+				};
+			};
+			buildConfigurationList = 663D05DA2BE7E61500B33719 /* Build configuration list for PBXProject "nbp-average-rate" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 663D05D62BE7E61500B33719;
+			productRefGroup = 663D05E02BE7E61500B33719 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				663D05DE2BE7E61500B33719 /* nbp-average-rate */,
+				663D05EE2BE7E62100B33719 /* nbp-average-rateTests */,
+				663D05F82BE7E62100B33719 /* nbp-average-rateUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		663D05DD2BE7E61500B33719 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				663D05EA2BE7E62100B33719 /* Preview Assets.xcassets in Resources */,
+				663D05E72BE7E62100B33719 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		663D05ED2BE7E62100B33719 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		663D05F72BE7E62100B33719 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		663D05DB2BE7E61500B33719 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				663D05E52BE7E61500B33719 /* ContentView.swift in Sources */,
+				663D05E32BE7E61500B33719 /* nbp_average_rateApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		663D05EB2BE7E62100B33719 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				663D05F42BE7E62100B33719 /* nbp_average_rateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		663D05F52BE7E62100B33719 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				663D05FE2BE7E62100B33719 /* nbp_average_rateUITests.swift in Sources */,
+				663D06002BE7E62100B33719 /* nbp_average_rateUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		663D05F12BE7E62100B33719 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 663D05DE2BE7E61500B33719 /* nbp-average-rate */;
+			targetProxy = 663D05F02BE7E62100B33719 /* PBXContainerItemProxy */;
+		};
+		663D05FB2BE7E62100B33719 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 663D05DE2BE7E61500B33719 /* nbp-average-rate */;
+			targetProxy = 663D05FA2BE7E62100B33719 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		663D06012BE7E62100B33719 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		663D06022BE7E62100B33719 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		663D06042BE7E62100B33719 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"nbp-average-rate/Preview Content\"";
+				DEVELOPMENT_TEAM = P9255R54EV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pxlborn.nbp-average-rate";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		663D06052BE7E62100B33719 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"nbp-average-rate/Preview Content\"";
+				DEVELOPMENT_TEAM = P9255R54EV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pxlborn.nbp-average-rate";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		663D06072BE7E62100B33719 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P9255R54EV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pxlborn.nbp-average-rateTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nbp-average-rate.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/nbp-average-rate";
+			};
+			name = Debug;
+		};
+		663D06082BE7E62100B33719 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P9255R54EV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pxlborn.nbp-average-rateTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nbp-average-rate.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/nbp-average-rate";
+			};
+			name = Release;
+		};
+		663D060A2BE7E62100B33719 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P9255R54EV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pxlborn.nbp-average-rateUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "nbp-average-rate";
+			};
+			name = Debug;
+		};
+		663D060B2BE7E62100B33719 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P9255R54EV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pxlborn.nbp-average-rateUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "nbp-average-rate";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		663D05DA2BE7E61500B33719 /* Build configuration list for PBXProject "nbp-average-rate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				663D06012BE7E62100B33719 /* Debug */,
+				663D06022BE7E62100B33719 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		663D06032BE7E62100B33719 /* Build configuration list for PBXNativeTarget "nbp-average-rate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				663D06042BE7E62100B33719 /* Debug */,
+				663D06052BE7E62100B33719 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		663D06062BE7E62100B33719 /* Build configuration list for PBXNativeTarget "nbp-average-rateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				663D06072BE7E62100B33719 /* Debug */,
+				663D06082BE7E62100B33719 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		663D06092BE7E62100B33719 /* Build configuration list for PBXNativeTarget "nbp-average-rateUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				663D060A2BE7E62100B33719 /* Debug */,
+				663D060B2BE7E62100B33719 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 663D05D72BE7E61500B33719 /* Project object */;
+}
